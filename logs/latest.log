@@ -1,0 +1,170 @@
+[13:45:41] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[13:45:44] [ServerMain/INFO]: Loaded 7 recipes
+[13:45:45] [Server thread/INFO]: Starting minecraft server version 1.20
+[13:45:45] [Server thread/INFO]: Loading properties
+[13:45:45] [Server thread/INFO]: This server is running Paper version git-Paper-17 (MC: 1.20) (Implementing API version 1.20-R0.1-SNAPSHOT) (Git: c287e92)
+[13:45:45] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[13:45:45] [Server thread/INFO]: Using 4 threads for Netty based IO
+[13:45:45] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[13:45:45] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[13:45:46] [Server thread/INFO]: Default game type: SURVIVAL
+[13:45:46] [Server thread/INFO]: Generating keypair
+[13:45:46] [Server thread/INFO]: Starting Minecraft server on *:25565
+[13:45:46] [Server thread/INFO]: Using epoll channel type
+[13:45:46] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[13:45:46] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[13:45:47] [Server thread/INFO]: [playit-gg] Loading server plugin playit-gg v0.1.4
+[13:45:47] [Server thread/INFO]: [voicechat] Loading server plugin voicechat v2.4.9
+[13:45:47] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[13:45:47] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[13:45:47] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[13:45:47] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[13:45:47] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[13:45:47] [Server thread/INFO]: Preparing level "world"
+[13:45:48] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[13:45:48] [Server thread/INFO]: Time elapsed: 434 ms
+[13:45:48] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[13:45:48] [Server thread/INFO]: Time elapsed: 138 ms
+[13:45:48] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[13:45:48] [Server thread/INFO]: Time elapsed: 184 ms
+[13:45:48] [Server thread/INFO]: [playit-gg] Enabling playit-gg v0.1.4
+[13:45:50] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] secret key found, checking
+[13:45:50] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[13:45:50] [Server thread/INFO]: [voicechat] Enabling voicechat v2.4.9
+[13:45:50] [Server thread/INFO]: [voicechat] Initializing compatibility for Bukkit version 1.20-R0.1
+[13:45:50] [Server thread/INFO]: [voicechat] Compatibility version 17
+[13:45:50] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
+[13:45:50] [Server thread/INFO]: Running delayed init tasks
+[13:45:50] [Server thread/INFO]: [voicechat] Loading plugins
+[13:45:50] [Server thread/INFO]: [voicechat] Loaded 0 plugin(s)
+[13:45:50] [Server thread/INFO]: [voicechat] Initializing plugins
+[13:45:50] [Server thread/INFO]: [voicechat] Initialized 0 plugin(s)
+[13:45:50] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[13:45:50] [Server thread/INFO]: [voicechat] Using default voicechat socket implementation
+[13:45:50] [Server thread/INFO]: Done (5.848s)! For help, type "help"
+[13:45:50] [Server thread/INFO]: Timings Reset
+[13:45:50] [VoiceChatServerThread/INFO]: [voicechat] Server started at port 24375
+[13:45:52] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] found minecraft java tunnel: display-roles.joinmc.link
+[13:45:52] [Thread-7/INFO]: [gg.playit.minecraft.PlayitManager] keys and tunnel setup
+[13:45:52] [Thread-7/INFO]: playit.gg: tunnel setup
+[13:45:52] [Thread-7/INFO]: playit.gg: display-roles.joinmc.link
+[13:45:52] [Thread-7/WARN]: [gg.playit.control.ChannelSetup] Got IO error working with :control.playit.gg/2602:fbaf:848:0:0:0:0:1, error : java.net.SocketException: Network is unreachable
+[13:45:52] [Thread-7/INFO]: [gg.playit.control.ChannelSetup] request queued, waiting 1 second before resend
+[13:45:53] [Thread-7/INFO]: [gg.playit.control.ChannelSetup] request queued, waiting 1 second before resend
+[13:47:12] [Server thread/INFO]: [Not Secure] [Server] hi
+[13:47:47] [Server thread/INFO]: [Not Secure] [Server] hi
+[13:48:20] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[13:48:32] [Server thread/INFO]: --------- Help: Index ---------------------------
+[13:48:32] [Server thread/INFO]: Use /help [n] to get page n of help.
+[13:48:32] [Server thread/INFO]: Aliases: Lists command aliases
+[13:48:32] [Server thread/INFO]: Bukkit: All commands for Bukkit
+[13:48:32] [Server thread/INFO]: Minecraft: All commands for Minecraft
+[13:48:32] [Server thread/INFO]: playit-gg: All commands for playit-gg
+[13:48:32] [Server thread/INFO]: voicechat: All commands for voicechat
+[13:48:32] [Server thread/INFO]: /advancement: A Mojang provided command.
+[13:48:32] [Server thread/INFO]: /attribute: A Mojang provided command.
+[13:48:32] [Server thread/INFO]: /ban: A Mojang provided command.
+[13:48:32] [Server thread/INFO]: /ban-ip: A Mojang provided command.
+[13:48:32] [Server thread/INFO]: /banlist: A Mojang provided command.
+[13:48:32] [Server thread/INFO]: /bossbar: A Mojang provided command.
+[13:48:32] [Server thread/INFO]: /clear: A Mojang provided command.
+[13:48:32] [Server thread/INFO]: /clone: A Mojang provided command.
+[13:48:32] [Server thread/INFO]: /damage: A Mojang provided command.
+[13:48:32] [Server thread/INFO]: /data: A Mojang provided command.
+[13:48:32] [Server thread/INFO]: /datapack: A Mojang provided command.
+[13:48:32] [Server thread/INFO]: /debug: A Mojang provided command.
+[13:48:32] [Server thread/INFO]: /defaultgamemode: A Mojang provided command.
+[13:48:32] [Server thread/INFO]: /deop: A Mojang provided command.
+[13:48:32] [Server thread/INFO]: /difficulty: A Mojang provided command.
+[13:48:32] [Server thread/INFO]: /effect: A Mojang provided command.
+[13:48:32] [Server thread/INFO]: /enchant: A Mojang provided command.
+[13:48:32] [Server thread/INFO]: /execute: A Mojang provided command.
+[13:48:32] [Server thread/INFO]: /experience: A Mojang provided command.
+[13:48:32] [Server thread/INFO]: /fill: A Mojang provided command.
+[13:48:32] [Server thread/INFO]: /fillbiome: A Mojang provided command.
+[13:48:32] [Server thread/INFO]: /forceload: A Mojang provided command.
+[13:48:32] [Server thread/INFO]: /function: A Mojang provided command.
+[13:48:32] [Server thread/INFO]: /gamemode: A Mojang provided command.
+[13:48:32] [Server thread/INFO]: /gamerule: A Mojang provided command.
+[13:48:32] [Server thread/INFO]: /give: A Mojang provided command.
+[13:48:32] [Server thread/INFO]: /help: Shows the help menu
+[13:48:32] [Server thread/INFO]: /item: A Mojang provided command.
+[13:48:32] [Server thread/INFO]: /jfr: A Mojang provided command.
+[13:48:32] [Server thread/INFO]: /kick: A Mojang provided command.
+[13:48:32] [Server thread/INFO]: /kill: A Mojang provided command.
+[13:48:32] [Server thread/INFO]: /list: A Mojang provided command.
+[13:48:32] [Server thread/INFO]: /locate: A Mojang provided command.
+[13:48:32] [Server thread/INFO]: /loot: A Mojang provided command.
+[13:48:32] [Server thread/INFO]: /me: A Mojang provided command.
+[13:48:32] [Server thread/INFO]: /minecraft:help: A Mojang provided command.
+[13:48:32] [Server thread/INFO]: /minecraft:reload: A Mojang provided command.
+[13:48:32] [Server thread/INFO]: /msg: A Mojang provided command.
+[13:48:32] [Server thread/INFO]: /mspt: View server tick times
+[13:48:32] [Server thread/INFO]: /op: A Mojang provided command.
+[13:48:32] [Server thread/INFO]: /paper: Paper related commands
+[13:48:32] [Server thread/INFO]: /pardon: A Mojang provided command.
+[13:48:32] [Server thread/INFO]: /pardon-ip: A Mojang provided command.
+[13:48:32] [Server thread/INFO]: /particle: A Mojang provided command.
+[13:48:32] [Server thread/INFO]: /perf: A Mojang provided command.
+[13:48:32] [Server thread/INFO]: /place: A Mojang provided command.
+[13:48:32] [Server thread/INFO]: /playit: Configure playit.gg
+[13:48:32] [Server thread/INFO]: /playsound: A Mojang provided command.
+[13:48:32] [Server thread/INFO]: /plugins: Gets a list of plugins running on the server
+[13:48:32] [Server thread/INFO]: /recipe: A Mojang provided command.
+[13:48:32] [Server thread/INFO]: /reload: Reloads the server configuration and plugins
+[13:48:32] [Server thread/INFO]: /restart: Restarts the server
+[13:48:32] [Server thread/INFO]: /return: A Mojang provided command.
+[13:48:32] [Server thread/INFO]: /ride: A Mojang provided command.
+[13:48:32] [Server thread/INFO]: /save-all: A Mojang provided command.
+[13:48:32] [Server thread/INFO]: /save-off: A Mojang provided command.
+[13:48:32] [Server thread/INFO]: /save-on: A Mojang provided command.
+[13:48:32] [Server thread/INFO]: /say: A Mojang provided command.
+[13:48:32] [Server thread/INFO]: /schedule: A Mojang provided command.
+[13:48:32] [Server thread/INFO]: /scoreboard: A Mojang provided command.
+[13:48:32] [Server thread/INFO]: /seed: A Mojang provided command.
+[13:48:32] [Server thread/INFO]: /setblock: A Mojang provided command.
+[13:48:32] [Server thread/INFO]: /setidletimeout: A Mojang provided command.
+[13:48:32] [Server thread/INFO]: /setworldspawn: A Mojang provided command.
+[13:48:32] [Server thread/INFO]: /spawnpoint: A Mojang provided command.
+[13:48:32] [Server thread/INFO]: /spectate: A Mojang provided command.
+[13:48:32] [Server thread/INFO]: /spigot: Spigot related commands
+[13:48:32] [Server thread/INFO]: /spreadplayers: A Mojang provided command.
+[13:48:32] [Server thread/INFO]: /stop: A Mojang provided command.
+[13:48:32] [Server thread/INFO]: /stopsound: A Mojang provided command.
+[13:48:32] [Server thread/INFO]: /summon: A Mojang provided command.
+[13:48:32] [Server thread/INFO]: /tag: A Mojang provided command.
+[13:48:32] [Server thread/INFO]: /team: A Mojang provided command.
+[13:48:32] [Server thread/INFO]: /teammsg: A Mojang provided command.
+[13:48:32] [Server thread/INFO]: /teleport: A Mojang provided command.
+[13:48:32] [Server thread/INFO]: /tell: A Mojang provided command.
+[13:48:32] [Server thread/INFO]: /tellraw: A Mojang provided command.
+[13:48:32] [Server thread/INFO]: /time: A Mojang provided command.
+[13:48:32] [Server thread/INFO]: /timings: Manages Spigot Timings data to see performance of the server.
+[13:48:32] [Server thread/INFO]: /title: A Mojang provided command.
+[13:48:32] [Server thread/INFO]: /tm: A Mojang provided command.
+[13:48:32] [Server thread/INFO]: /tp: A Mojang provided command.
+[13:48:32] [Server thread/INFO]: /tps: Gets the current ticks per second for the server
+[13:48:32] [Server thread/INFO]: /trigger: A Mojang provided command.
+[13:48:32] [Server thread/INFO]: /version: Gets the version of this server including any plugins in use
+[13:48:32] [Server thread/INFO]: /voicechat: Manage voice chat
+[13:48:32] [Server thread/INFO]: /w: A Mojang provided command.
+[13:48:32] [Server thread/INFO]: /weather: A Mojang provided command.
+[13:48:32] [Server thread/INFO]: /whitelist: A Mojang provided command.
+[13:48:32] [Server thread/INFO]: /worldborder: A Mojang provided command.
+[13:48:32] [Server thread/INFO]: /xp: A Mojang provided command.
+[13:48:56] [Server thread/INFO]: Server Plugins (2):
+[13:48:56] [Server thread/INFO]: Bukkit Plugins:
+[13:48:56] [Server thread/INFO]:  - playit-gg, voicechat
+[13:49:06] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[13:49:39] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[13:49:48] [Server thread/INFO]: /playit
+[13:49:54] [Thread-7/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[13:50:40] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[13:53:54] [Server thread/INFO]: This command can only be executed as a player
+[13:53:55] [Thread-7/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[13:54:19] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[13:54:51] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[13:55:37] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[13:55:46] [Server thread/INFO]: Unknown command. Type "/help" for help.
