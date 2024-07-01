@@ -3,6 +3,7 @@
     "criteria": {
       "minecraft:taiga": "2024-06-29 05:39:28 +0000",
       "minecraft:savanna_plateau": "2024-06-29 05:39:59 +0000",
+      "minecraft:stony_peaks": "2024-07-01 03:34:57 +0000",
       "minecraft:sparse_jungle": "2024-06-29 00:53:21 +0000",
       "minecraft:lukewarm_ocean": "2024-06-29 01:49:22 +0000",
       "minecraft:river": "2024-06-29 01:42:35 +0000",
@@ -815,6 +816,8 @@
       "minecraft:hoglin": "2024-06-30 06:18:08 +0000",
       "minecraft:spider": "2024-06-29 01:44:42 +0000",
       "minecraft:creeper": "2024-06-29 02:06:55 +0000",
+      "minecraft:zombified_piglin": "2024-07-01 03:02:36 +0000",
+      "minecraft:witch": "2024-07-01 02:28:05 +0000",
       "minecraft:ender_dragon": "2024-06-30 07:16:06 +0000",
       "minecraft:shulker": "2024-06-30 07:23:22 +0000",
       "minecraft:piglin": "2024-06-29 07:16:52 +0000",
@@ -2606,6 +2609,18 @@
   "minecraft:recipes/decorations/cartography_table": {
     "criteria": {
       "has_paper": "2024-06-30 09:15:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_lamp": {
+    "criteria": {
+      "has_glowstone": "2024-07-01 02:52:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2024-07-01 03:35:16 +0000"
     },
     "done": true
   },
