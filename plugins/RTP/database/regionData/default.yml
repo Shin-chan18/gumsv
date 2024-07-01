@@ -1,0 +1,21 @@
+mode: ACCUMULATE
+expand: 'false'
+world: world
+centerZ: '0'
+centerX: '0'
+biomeLocations:
+  WOODED_BADLANDS: {151275: 1}
+  JUNGLE: {61454: 1}
+  SPARSE_JUNGLE: {155368: 1}
+  DARK_FOREST: {181820: 1}
+  SNOWY_PLAINS: {88048: 1, 176037: 1}
+  FOREST: {6431: 1, 29511: 1, 59497: 1, 163650: 1}
+badLocations: {1083: 1, 2451: 1, 21278: 1, 23704: 1, 41023: 1, 45708: 1, 47812: 1,
+  48658: 1, 54500: 1, 60261: 1, 84443: 1, 86446: 1, 87553: 1, 103798: 1, 106547: 1,
+  116029: 1, 140483: 1, 151041: 1, 155691: 1, 169048: 1, 169405: 2, 172473: 1, 174698: 1,
+  181478: 1, 188763: 1}
+centerRadius: '64'
+weight: '1.0'
+radius: '256'
+fillIter: 0
+uniquePlacements: 'false'

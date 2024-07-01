@@ -1,0 +1,9 @@
+world: world
+shape: shape
+worldBorderOverride: worldBorderOverride
+vert: vert
+price: price
+requirePermission: requirePermission
+cacheCap: cacheCap
+override: override
+version: version
