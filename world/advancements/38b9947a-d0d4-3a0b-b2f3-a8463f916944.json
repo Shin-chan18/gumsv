@@ -766,6 +766,7 @@
     "criteria": {
       "cooked_beef": "2024-06-29 10:24:18 +0000",
       "chorus_fruit": "2024-07-01 02:24:01 +0000",
+      "porkchop": "2024-07-02 02:25:03 +0000",
       "apple": "2024-06-29 10:15:13 +0000",
       "bread": "2024-06-29 10:01:29 +0000",
       "golden_apple": "2024-06-29 10:28:59 +0000",
@@ -1638,6 +1639,12 @@
     },
     "done": true
   },
+  "minecraft:end/dragon_egg": {
+    "criteria": {
+      "dragon_egg": "2024-07-01 11:10:29 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/end_stone_brick_stairs_from_end_stone_brick_stonecutting": {
     "criteria": {
       "has_end_stone_brick": "2024-07-01 11:13:29 +0000"
@@ -1650,21 +1657,9 @@
     },
     "done": true
   },
-  "minecraft:end/dragon_egg": {
-    "criteria": {
-      "dragon_egg": "2024-07-01 11:10:29 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/end_stone_brick_slab_from_end_stone_brick_stonecutting": {
     "criteria": {
       "has_end_stone_brick": "2024-07-01 11:13:29 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/white_dye": {
-    "criteria": {
-      "has_bone_meal": "2024-07-01 11:16:04 +0000"
     },
     "done": true
   },
@@ -1686,9 +1681,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/white_dye": {
+    "criteria": {
+      "has_bone_meal": "2024-07-01 11:16:04 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/bone_block": {
     "criteria": {
       "has_bone_meal": "2024-07-01 11:16:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/fermented_spider_eye": {
+    "criteria": {
+      "has_spider_eye": "2024-07-02 02:24:18 +0000"
     },
     "done": true
   },
