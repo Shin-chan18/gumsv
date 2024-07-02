@@ -1,0 +1,159 @@
+[02:55:41] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[02:55:44] [ServerMain/INFO]: Loaded 7 recipes
+[02:55:45] [Server thread/INFO]: Starting minecraft server version 1.20
+[02:55:45] [Server thread/INFO]: Loading properties
+[02:55:45] [Server thread/INFO]: This server is running Paper version git-Paper-17 (MC: 1.20) (Implementing API version 1.20-R0.1-SNAPSHOT) (Git: c287e92)
+[02:55:45] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[02:55:45] [Server thread/INFO]: Using 4 threads for Netty based IO
+[02:55:46] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[02:55:46] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[02:55:46] [Server thread/INFO]: Default game type: SURVIVAL
+[02:55:46] [Server thread/INFO]: Generating keypair
+[02:55:47] [Server thread/INFO]: Starting Minecraft server on *:12922
+[02:55:47] [Server thread/INFO]: Using epoll channel type
+[02:55:47] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[02:55:47] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[02:55:47] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load plugin 'SetHome-2.0.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: Unsupported API version 1.2
+	at org.bukkit.craftbukkit.v1_20_R1.util.CraftMagicNumbers.checkSupported(CraftMagicNumbers.java:380) ~[paper-1.20.jar:git-Paper-17]
+	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:119) ~[paper-1.20.jar:git-Paper-17]
+	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:35) ~[paper-1.20.jar:git-Paper-17]
+	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:116) ~[paper-1.20.jar:git-Paper-17]
+	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:39) ~[paper-1.20.jar:git-Paper-17]
+	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:36) ~[paper-1.20.jar:git-Paper-17]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.loadPlugins(CraftServer.java:430) ~[paper-1.20.jar:git-Paper-17]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:273) ~[paper-1.20.jar:git-Paper-17]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1101) ~[paper-1.20.jar:git-Paper-17]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318) ~[paper-1.20.jar:git-Paper-17]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[02:55:48] [Server thread/INFO]: [playit-gg] Loading server plugin playit-gg v0.1.4
+[02:55:48] [Server thread/INFO]: [voicechat] Loading server plugin voicechat v2.4.9
+[02:55:48] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[02:55:48] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[02:55:48] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[02:55:48] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[02:55:48] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[02:55:48] [Server thread/INFO]: Preparing level "world"
+[02:55:48] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[02:55:49] [Server thread/INFO]: Time elapsed: 305 ms
+[02:55:49] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[02:55:49] [Server thread/INFO]: Time elapsed: 162 ms
+[02:55:49] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[02:55:49] [Server thread/INFO]: Time elapsed: 125 ms
+[02:55:49] [Server thread/INFO]: [playit-gg] Enabling playit-gg v0.1.4
+[02:55:50] [Server thread/INFO]: [voicechat] Enabling voicechat v2.4.9
+[02:55:50] [Server thread/INFO]: [voicechat] Initializing compatibility for Bukkit version 1.20-R0.1
+[02:55:50] [Server thread/INFO]: [voicechat] Compatibility version 17
+[02:55:50] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
+[02:55:51] [Server thread/INFO]: Running delayed init tasks
+[02:55:51] [Server thread/INFO]: [voicechat] Loading plugins
+[02:55:51] [Server thread/INFO]: [voicechat] Loaded 0 plugin(s)
+[02:55:51] [Server thread/INFO]: [voicechat] Initializing plugins
+[02:55:51] [Server thread/INFO]: [voicechat] Initialized 0 plugin(s)
+[02:55:51] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[02:55:51] [Server thread/INFO]: [voicechat] Using default voicechat socket implementation
+[02:55:51] [Server thread/INFO]: Done (5.615s)! For help, type "help"
+[02:55:51] [Server thread/INFO]: Timings Reset
+[02:55:51] [VoiceChatServerThread/INFO]: [voicechat] Server started at port 12922
+[02:55:53] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] secret key not set, generate claim code: b21c8e98d9300cab
+[02:55:53] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[02:55:54] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b21c8e98d9300cab
+[02:55:57] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[02:55:57] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b21c8e98d9300cab
+[02:56:00] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[02:56:01] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b21c8e98d9300cab
+[02:56:04] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[02:56:04] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b21c8e98d9300cab
+[02:56:07] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[02:56:07] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b21c8e98d9300cab
+[02:56:10] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[02:56:11] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b21c8e98d9300cab
+[02:56:14] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[02:56:14] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b21c8e98d9300cab
+[02:56:17] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[02:56:17] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b21c8e98d9300cab
+[02:56:20] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[02:56:20] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b21c8e98d9300cab
+[02:56:23] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[02:56:24] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b21c8e98d9300cab
+[02:56:27] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[02:56:27] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[02:56:28] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] create new minecraft java tunnel
+[02:56:36] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] found minecraft java tunnel: subjects-ten.joinmc.link
+[02:56:36] [Thread-7/INFO]: [gg.playit.minecraft.PlayitManager] keys and tunnel setup
+[02:56:36] [Thread-7/INFO]: playit.gg: tunnel setup
+[02:56:36] [Thread-7/INFO]: playit.gg: subjects-ten.joinmc.link
+[02:56:36] [Thread-7/WARN]: [gg.playit.control.ChannelSetup] Got IO error working with :control.playit.gg/2602:fbaf:848:0:0:0:0:1, error : java.net.SocketException: Network is unreachable
+[02:56:36] [Thread-7/INFO]: [gg.playit.control.ChannelSetup] request queued, waiting 1 second before resend
+[02:56:37] [Thread-7/INFO]: [gg.playit.control.ChannelSetup] request queued, waiting 1 second before resend
+[02:59:30] [Thread-7/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=209.25.142.194:13347, peerAddr=14.191.137.233:1161, claimAddress=209.25.142.2:43784, claimToken=[44, 0, 60, -47, 25, -114, -62, 52, 35, 14, -65, -119, -23, 4, -119, 12, -82, 17, 34, -85, 8, 102, -125, 109, 18, 0, 0, 0, 0, 0, 9, 87, 112, 0, 0, 0, 0, 0, 51, 110, -53, -104, 34, -85, 8, 0, 0, 0, 0, 18, 0, 0, 0, 0, 0, 0, 0, 3, 0, 1, -33, -37, 71, -48, 113, -64, -3, 85, 83, 69, -88, 72, -61, -34, 97, -126], tunnelServerId=3, dataCenterId=18}
+[02:59:30] [Thread-7/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[02:59:30] [Thread-7/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.142.2:43784 to claim client
+[02:59:30] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[02:59:30] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[02:59:30] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[02:59:30] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnection, LegacyPingHandler=class net.minecraft.server.network.LegacyPingHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.PacketSplitter, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.EnumProtocolDirection, PacketPrepender=class net.minecraft.network.PacketPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.NetworkManagerServer, NetworkManager=class net.minecraft.network.NetworkManager, HandshakeListener=class net.minecraft.server.network.HandshakeListener, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=null}
+[02:59:30] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] failed to get Minecraft server from Bukkit.getServer()
+[02:59:30] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:12922
+[02:59:30] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[02:59:41] [Thread-7/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=209.25.142.194:13347, peerAddr=14.191.137.233:15759, claimAddress=209.25.142.2:43784, claimToken=[44, 0, 60, -47, 25, -114, -62, 52, 35, 14, -65, -119, -23, 61, -113, -97, -44, 31, -15, -85, 8, 102, -125, 109, 29, 0, 0, 0, 0, 0, 9, 87, 112, 0, 0, 0, 0, 0, 51, 110, -53, 44, -15, -85, 8, 0, 0, 0, 0, 18, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 74, -81, 123, 46, 20, 7, 18, 98, 126, 16, 72, -72, -117, 16, 19, 126], tunnelServerId=1, dataCenterId=18}
+[02:59:41] [Thread-7/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[02:59:41] [Thread-7/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.142.2:43784 to claim client
+[02:59:41] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[02:59:41] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[02:59:41] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[02:59:41] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnection, LegacyPingHandler=class net.minecraft.server.network.LegacyPingHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.PacketSplitter, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.EnumProtocolDirection, PacketPrepender=class net.minecraft.network.PacketPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.NetworkManagerServer, NetworkManager=class net.minecraft.network.NetworkManager, HandshakeListener=class net.minecraft.server.network.HandshakeListener, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=null}
+[02:59:41] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] failed to get Minecraft server from Bukkit.getServer()
+[02:59:41] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:12922
+[02:59:41] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[02:59:42] [User Authenticator #0/INFO]: UUID of player botahihi is c6236dfa-6b35-3a8f-9599-2b7b31dc2eba
+[02:59:44] [Server thread/INFO]: botahihi joined the game
+[02:59:44] [Server thread/INFO]: botahihi[/127.0.0.1:45088] logged in with entity id 175 at ([world]-225.5, 151.5625, -345.5)
+[02:59:45] [Server thread/INFO]: [voicechat] Received secret request of botahihi (17)
+[02:59:45] [Server thread/INFO]: [voicechat] Sent secret to botahihi
+[03:00:21] [Server thread/INFO]: botahihi issued server command: /plugins
+[03:00:29] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
+[03:00:29] [Server thread/INFO]: botahihi lost connection: Disconnected
+[03:00:29] [Server thread/INFO]: [voicechat] Disconnecting client botahihi
+[03:00:29] [Server thread/INFO]: botahihi left the game
+[03:00:30] [Thread-7/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=209.25.142.194:13347, peerAddr=14.191.137.233:16332, claimAddress=209.25.142.2:43784, claimToken=[44, 0, 60, -47, 25, -114, -62, 52, 35, 14, -65, -119, -23, 63, -52, -44, 24, -57, 49, -85, 8, 102, -125, 109, 78, 0, 0, 0, 0, 0, 9, 87, 112, 0, 0, 0, 0, 0, 51, 110, -53, 27, 49, -85, 8, 0, 0, 0, 0, 18, 0, 0, 0, 0, 0, 0, 0, 3, 0, 1, -104, 114, -74, 88, -44, -25, 11, -85, -75, -1, 117, -123, 64, -123, -44, -37], tunnelServerId=3, dataCenterId=18}
+[03:00:30] [Thread-7/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[03:00:30] [Thread-7/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.142.2:43784 to claim client
+[03:00:30] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[03:00:30] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[03:00:30] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[03:00:30] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnection, LegacyPingHandler=class net.minecraft.server.network.LegacyPingHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.PacketSplitter, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.EnumProtocolDirection, PacketPrepender=class net.minecraft.network.PacketPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.NetworkManagerServer, NetworkManager=class net.minecraft.network.NetworkManager, HandshakeListener=class net.minecraft.server.network.HandshakeListener, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=null}
+[03:00:30] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] failed to get Minecraft server from Bukkit.getServer()
+[03:00:30] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:12922
+[03:00:30] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[03:00:33] [Server thread/INFO]: Stopping the server
+[03:00:33] [Server thread/INFO]: Stopping server
+[03:00:33] [Server thread/INFO]: [voicechat] Disabling voicechat v2.4.9
+[03:00:33] [Server thread/INFO]: [playit-gg] Disabling playit-gg v0.1.4
+[03:00:33] [Server thread/INFO]: Saving players
+[03:00:33] [Server thread/INFO]: Saving worlds
+[03:00:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[03:00:33] [Thread-7/INFO]: [gg.playit.minecraft.PlayitManager] control channel shutdown
+[03:00:33] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[03:00:33] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[03:00:33] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[03:00:35] [Server thread/INFO]: [ChunkHolderManager] Saved 829 block chunks, 829 entity chunks, 0 poi chunks in world 'world' in 2.52s
+[03:00:36] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[03:00:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[03:00:36] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[03:00:36] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[03:00:36] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[03:00:37] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_nether' in 0.92s
+[03:00:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03:00:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[03:00:37] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[03:00:37] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[03:00:37] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[03:00:37] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_the_end' in 0.25s
+[03:00:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[03:00:37] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[03:00:37] [Server thread/INFO]: Flushing Chunk IO
+[03:00:37] [Server thread/INFO]: Closing Thread Pool
+[03:00:37] [Server thread/INFO]: Closing Server

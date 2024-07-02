@@ -1,7 +1,0 @@
-playerCommands: playerCommands
-teleportCooldown: teleportCooldown
-logging: logging
-cancelDistance: cancelDistance
-teleportDelay: teleportDelay
-consoleCommands: consoleCommands
-version: version
