@@ -9,6 +9,7 @@
     "criteria": {
       "minecraft:sparse_jungle": "2024-06-29 10:41:57 +0000",
       "minecraft:lukewarm_ocean": "2024-06-30 10:51:03 +0000",
+      "minecraft:grove": "2024-07-01 10:47:11 +0000",
       "minecraft:forest": "2024-06-29 10:41:28 +0000",
       "minecraft:deep_lukewarm_ocean": "2024-06-30 07:35:09 +0000",
       "minecraft:savanna": "2024-06-29 10:32:24 +0000",
@@ -840,6 +841,54 @@
   "minecraft:recipes/misc/paper": {
     "criteria": {
       "has_reeds": "2024-07-01 03:41:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ladder": {
+    "criteria": {
+      "has_stick": "2024-07-01 10:44:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/campfire": {
+    "criteria": {
+      "has_stick": "2024-07-01 10:44:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_hoe": {
+    "criteria": {
+      "has_stick": "2024-07-01 10:44:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_pickaxe": {
+    "criteria": {
+      "has_stick": "2024-07-01 10:44:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_axe": {
+    "criteria": {
+      "has_stick": "2024-07-01 10:44:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_shovel": {
+    "criteria": {
+      "has_stick": "2024-07-01 10:44:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/wooden_sword": {
+    "criteria": {
+      "has_stick": "2024-07-01 10:44:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2024-07-01 10:43:43 +0000"
     },
     "done": true
   },
